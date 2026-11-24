@@ -2,7 +2,7 @@
 
 End-to-end machine-learning project on the [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (~100k orders, 2016–2018).
 
-**Live app:** `<add your Streamlit Cloud URL here>`
+**Live app:** https://olist-ml-project.streamlit.app
 
 | | |
 |---|---|
