@@ -1,0 +1,11 @@
+step,rows_before,rows_after,rows_removed
+products: missing category -> 'unknown' (610 products),32951,32951,0
+products: impute numeric attributes with category median,32951,32951,0
+payments: drop payment_type == 'not_defined',103886,103883,3
+reviews: keep latest review per order,99224,98673,551
+geolocation: drop points outside Brazil,1000163,1000121,42
+geolocation: aggregate to zip-prefix median lat/lng,19010,19010,0
+orders: drop duplicate order_id,99441,99441,0
+orders: drop orders with no items (mostly canceled/unavailable),99441,98666,775
+orders: drop impossible timelines (delivered/shipped/approved before purchase),98666,98500,166
+seller history: leakage-safe Bayesian-smoothed past late/bad-review rate (m=10),98500,98500,0
